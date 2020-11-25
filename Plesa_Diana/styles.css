@@ -1,0 +1,97 @@
+body { background-color: white;}
+h1.nume{color: silver;
+        font-style: arial;
+		font-size: 200%;
+		text-align:right;
+		border-style:solid;
+		border-color:black;
+		background-color: gray}
+h2.email{ color: gray;
+          text-decoration: underline;
+		  font-style: arial;
+		  font-size: 120%;
+		  text-align: right}
+h3.italic{ font-style: italic;
+           color: silver;
+		   text-align: right;
+		   font-size: 150%;
+		   text-decoration: underline}
+h4.mid2{ font-style: italic;
+        color: silver;
+		text-align:center;
+	    font-size: 150%;
+	    text-decoration: underline}
+       table, th, td {
+	   border: 1px solid gray;
+	  text-align:center;
+	  background-color: white;}
+.floatRight{float:right;margin-left:20px;
+            width: 30%;
+            opacity: 0.6;
+            border-radius: 30px;}
+.right{float: right;
+       width: 70%;
+       opacity: 0.6;
+       border-radius: 30px;}
+.tabel{float:right;margin-left:20px;}
+.recipeBorder{border-style: solid;
+              border-color: gray;
+              background-color: #E9E5E5}
+  div.parent {
+	text-align: center;
+	}
+ul {
+	display: inline-block;
+  text-align: center;
+  list-style: none;
+	}
+  * {box-sizing: border-box;}
+  body {font-family: Verdana, sans-serif;}
+  .mySlides {display: none;}
+  img {vertical-align: middle;}
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
